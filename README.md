@@ -24,3 +24,17 @@ This file will:
 - `$ php console.php list migrations`
 - `$ php console.php --configuration="migrations.yml" migrations:status`
 - `$ php console.php --configuration="migrations.yml" migrations:generate`
+
+
+## Project Structure
+```
+|-- [doctrine-example]
+  |-- [DoctrineMigrations]
+  |-- [vendor]
+  |-- composer.json
+  |-- console.php
+  |-- migrations.yml
+  ...
+```
+    
+    
