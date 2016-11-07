@@ -20,6 +20,7 @@ This file will:
 
 
 ## Run(Example):
-`$ php console.php list migrations`
-`$ php console.php --configuration="migrations.yml" migrations:status`
-`$ php console.php --configuration="migrations.yml" migrations:generate`
+
+- `$ php console.php list migrations`
+- `$ php console.php --configuration="migrations.yml" migrations:status`
+- `$ php console.php --configuration="migrations.yml" migrations:generate`
